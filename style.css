@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #ede9e5;
+    line-height: 1.6;
+  }
+  
+  .chief  {
+    background-image:url('https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2152537062/settings_images/ry03k2xpShihpR3ZlT98_file.jpg');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+  }
+
+  .chief h1 {
+    font-size:50px;
+    line-height:1.2;
+  }
+
+  .chief p {
+    font-size:20px;
+  }
+
+ .chief button {
+    font-size:18px;
+    text-decoration:none;
+    color:#926239;
+    border:#926239 1px solid;
+    padding:10px 20px;
+    border-radius:10px;
+    margin-top:20px;
+  }
+
+  .chief button:hover {
+    background:#926239;
+    color:#fff;
+  }
+
+
+  .block1 {
+    padding:20px;
+    background:#926239;
+    color:#fff;
+    text-align:center;
+  }
+
+  .block2 {
+    padding:20px;
+    background:#f4f4f4;
+    text-align:center;
+    color: #926239;
+  }
+
+  .block3 {
+    display:flex;
+  }
+
+  .block3 div {
+    padding:20px;
+  }
+
+  .block3 .box-1, .block3 .box-3 {
+    background:#926239;
+    color:#fff;
+  }
+
+  .block3 .box-2 {
+    color: #926239;
+    background:#f9f9f9;
+  }
